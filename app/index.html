@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sunset Platinum — GTA 6 Trophy Guide &amp; Tracker</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="masthead">
+  <div class="masthead-text">
+    <p class="eyebrow">Grand Theft Auto VI &middot; PlayStation 5 &middot; Official 55-trophy list</p>
+    <h1>Sunset Platinum</h1>
+    <p class="lede">The offline trophy guide and tracker for GTA 6. Tick trophies off as you earn them, read a guide for each one, and follow the road to the platinum — no network needed.</p>
+  </div>
+  <div class="progress-card" id="progress-card">
+    <p class="big-count"><span id="earned-count">0</span><span class="of"> / 55</span></p>
+    <p class="progress-label">trophies earned</p>
+    <div class="bar"><div class="bar-fill" id="bar-fill" style="width:0%"></div></div>
+    <p class="grade-counts" id="grade-counts"></p>
+  </div>
+</header>
+<nav class="tabs" aria-label="Views">
+  <a href="#/" data-route="" class="tab">Checklist</a>
+  <a href="#/roadmap" data-route="roadmap" class="tab">Roadmap</a>
+  <a href="#/missables" data-route="missables" class="tab">Missables</a>
+  <a href="#/next" data-route="next" class="tab">Next up</a>
+  <a href="#/settings" data-route="settings" class="tab">Settings</a>
+</nav>
+<div class="controls" id="controls">
+  <input id="search" type="search" placeholder="Search trophies by name…" aria-label="Search trophies">
+  <label>Kind
+    <select id="kind">
+      <option value="all">All kinds</option>
+      <option value="story">Story</option>
+      <option value="activities">Activities</option>
+      <option value="collectibles">Collectibles</option>
+    </select>
+  </label>
+  <label>Grade
+    <select id="grade">
+      <option value="all">All grades</option>
+      <option value="platinum">Platinum</option>
+      <option value="gold">Gold</option>
+      <option value="silver">Silver</option>
+      <option value="bronze">Bronze</option>
+    </select>
+  </label>
+  <label class="check"><input id="spoilers" type="checkbox"> Hide story spoilers</label>
+  <label class="check"><input id="earned-only" type="checkbox"> Earned only</label>
+</div>
+<div class="layout">
+  <main id="view" aria-live="polite"></main>
+  <aside id="detail" class="detail" hidden></aside>
+</div>
+<footer class="foot">
+  <p>Names, descriptions and grades: the official PlayStation 5 trophy list, as published on Exophase. PSN progress counts: PSNProfiles. Each guide is written in our own words from the official description and is not yet checked in the game — where a place or step is not pinned down, the guide says so. Works fully offline; no Rockstar artwork or logo is used.</p>
+  <p class="keys">Keys: <kbd>/</kbd> search &middot; <kbd>g</kbd> checklist &middot; <kbd>r</kbd> roadmap &middot; <kbd>m</kbd> missables &middot; <kbd>Esc</kbd> close guide</p>
+</footer>
+<script type="module" src="js/main.js"></script>
+</body>
+</html>
